@@ -1,0 +1,5 @@
+docker run -d -e POSTGRES_PASSWORD=root --name bd_log_container --rm 'id da imagem'
+
+-e para mudar o password do banco
+
+ou podemos usar o "POSTGRES_HOST_AUTH_METHOD=trust para não exigir senha
